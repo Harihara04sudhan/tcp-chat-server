@@ -310,7 +310,7 @@ server.on('error', (err) => {
 // Start the server
 server.listen(PORT, () => {
   console.log('='.repeat(50));
-  console.log('🚀 TCP Chat Server Started');
+  console.log('TCP Chat Server Started');
   console.log('='.repeat(50));
   console.log(`Port: ${PORT}`);
   console.log(`Idle Timeout: ${IDLE_TIMEOUT / 1000} seconds`);
