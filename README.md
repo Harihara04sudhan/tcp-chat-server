@@ -2,6 +2,15 @@
 
 A simple TCP chat server built using **ONLY Node.js standard library** (`net` module). No HTTP, no frameworks, no external libraries.
 
+---
+
+## 📦 **Submission Links**
+
+- 🎥 **Video Demo**: [https://youtu.be/NmmV8rijiJU](https://youtu.be/NmmV8rijiJU)
+- 💻 **GitHub Repository**: [https://github.com/Harihara04sudhan/tcp-chat-server](https://github.com/Harihara04sudhan/tcp-chat-server)
+
+---
+
 ## Features
 
 ✅ **Raw TCP Socket Server** - Uses Node.js `net` module only  
@@ -13,7 +22,6 @@ A simple TCP chat server built using **ONLY Node.js standard library** (`net` mo
 ✅ **WHO Command** - List all active users (bonus)  
 ✅ **Direct Messaging** - Private messages between users (bonus)  
 ✅ **PING/PONG** - Heartbeat mechanism (bonus)  
-✅ **Idle Timeout** - Disconnects inactive users after 60 seconds (bonus)  
 
 ## Requirements
 
@@ -450,22 +458,6 @@ The server logs all activities to the console:
 - ✅ DM command (private messages)
 - ✅ PING/PONG heartbeat
 - ✅ 60-second idle timeout
-
----
-
-## Screen Recording
-
-**Video Link:** [To be added]
-
-The video demonstrates:
-1. Starting the server
-2. Connecting two clients (using `nc`)
-3. Logging in with different usernames
-4. Sending messages back and forth
-5. Using WHO command
-6. Sending a direct message
-7. Disconnecting a client
-8. Testing duplicate username rejection
 
 ---
 

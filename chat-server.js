@@ -246,7 +246,9 @@ function processCommand(socket, data) {
 
 /**
  * Check for idle clients and disconnect them
+ * COMMENTED OUT - Uncomment if you want idle timeout feature
  */
+/*
 function checkIdleClients() {
   const now = Date.now();
   
@@ -261,6 +263,7 @@ function checkIdleClients() {
 
 // Start idle timeout checker every 10 seconds
 setInterval(checkIdleClients, 10000);
+*/
 
 /**
  * Create TCP server
@@ -313,7 +316,7 @@ server.listen(PORT, () => {
   console.log('TCP Chat Server Started');
   console.log('='.repeat(50));
   console.log(`Port: ${PORT}`);
-  console.log(`Idle Timeout: ${IDLE_TIMEOUT / 1000} seconds`);
+  // console.log(`Idle Timeout: ${IDLE_TIMEOUT / 1000} seconds`); // COMMENTED OUT
   console.log(`\nConnect using: nc localhost ${PORT}`);
   console.log(`Or: telnet localhost ${PORT}`);
   console.log('='.repeat(50));
